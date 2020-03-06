@@ -1,0 +1,29 @@
+﻿button.formula_operator_btn_container.selected{
+    border:none; background-color: #faa51a;
+    background-image:linear-gradient(135deg, #fbe0a2, #faa51a);
+}
+
+button.formula_operator_btn_container.selected:hover{
+    border:none; background-color: #f89d08;
+    background-image:linear-gradient(135deg, #f2cc74, #f89d08);
+}
+
+button.formula_operator_btn_container{
+    border:none; background-color: #fce7ba;
+    background-image:linear-gradient(135deg, #fdf4dd, #fce7ba);
+}
+
+button.formula_operator_btn_container:hover{
+    border:none; background-color: #fcc872;
+    background-image:linear-gradient(135deg, #fce7ba, #fcc872);
+}
+
+.formula_operator_btn_container span {color:white;font-weight:bold;}
+
+/*表格最后一列内部的右边留白不需要*/
+div[hx_extend_webpart_type="hxmd_object_view_condition_builder"] table td:last-child {padding-right:0px;}
+
+/*最后一个条件行的and or图标不用显示*/
+div[hx_extend_webpart_type="hxmd_object_view_condition_builder"] table tbody:last-child #btn_cndtn_option_and,
+div[hx_extend_webpart_type="hxmd_object_view_condition_builder"] table tbody:last-child #btn_cndtn_option_or
+{visibility:hidden;}

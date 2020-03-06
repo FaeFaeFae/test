@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="hxwinautologincheck6.aspx.cs" Inherits="HXEIMS6.WWW.hxwinautologincheck6" %>

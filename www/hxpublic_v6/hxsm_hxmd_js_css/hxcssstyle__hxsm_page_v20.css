@@ -1,0 +1,27 @@
+﻿.hxpg_left_area {top:0px;width:180px;}
+.hxpg_right_area {top:0px;padding-top:0px;}
+.hxpg_right_area > h4 {margin:10px 0px;}
+.hxpg_right_area > h4.higher_title {margin:16px 0px;}
+
+.hxpg_left_area #divMenuBarLogoArea {text-align:center;background-color:#fff;height:auto;}
+.hxpg_left_area.higher_title #divMenuBarLogoArea {height:52px;}
+.hxpg_left_area #divMenuBarLogoArea img {width:40px;height:32px;margin:4px 0px;}
+.hxpg_left_area.higher_title #divMenuBarLogoArea img {margin-top:10px;}
+.hxpg_left_area #divMenuBarFoldUnFold {width:100%;height:40px;line-height:40px;text-align:center;font-size:16px;cursor:pointer;} 
+
+#hxmastermenuitem_container {width:100%;height:30px;line-height:30px;cursor:pointer;}
+#hxmastermenuitem_container #hxmastermenuitem_toplevel_fold_icon {width:14px;height:16px;margin-left:2px;margin-right:2px;text-align:center;display:inline-block;font-size:16px;}
+#hxmastermenuitem_container #hxmastermenuitem_icon {width:16px;height:16px;display:inline-block;font-size:16px;}
+#hxmastermenuitem_container #hxmastermenuitem_text {margin-left:10px;max-width:130px;height:16px;line-height:16px;display:inline-block;vertical-align:middle;font-weight:bold;}
+
+.left_fold #hxmastermenuitem_container #hxmastermenuitem_text {display:none;}
+
+.hxpg_left_area #WebPageExitSystemArea {position:absolute;bottom:0px;width:100%;height:40px;line-height:40px;}
+.hxpg_left_area #lblExitSystemButtonText, .hxpg_left_area #lblGoHomeButtonText
+ {text-align:center;display:inline-block;width:50%;height:24px;}
+
+.hxpg_left_area #lblExitSystemButtonText:before,.hxpg_left_area #lblGoHomeButtonText:before {margin-right:3px;}
+
+.hxpg_left_area #lblExitSystemButtonWhenFold {display:none;}
+.left_fold.hxpg_left_area #lblExitSystemButtonWhenFold {display:inline-block;width:50px;text-align:center;}
+.left_fold.hxpg_left_area #lblExitSystemButtonText, .left_fold.hxpg_left_area #lblGoHomeButtonText { display:none; }

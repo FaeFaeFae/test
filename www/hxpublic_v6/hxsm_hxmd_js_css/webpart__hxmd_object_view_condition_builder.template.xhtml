@@ -1,0 +1,70 @@
+﻿<table class="hxblock_hilight_datalist_head hxtbl_datalist striped" 
+       hx_binding_row_callback="HXWebFieldConditionBuilder._Internal._OnAfterDataRowRebinding">
+    <thead>
+        <tr>
+            <td align="center" style="width:60px;"></td>
+            <td align="center" style="width:40px;"></td>
+            <td align="center" style="width:200px;"><span id="spnTitle_FieldName"></span></td>
+            <td align="center" style="width:120px;"><span id="spnTitle_CompareMethod"></span></td>
+            <td align="center" style="min-width:500px;"><span id="spnTitle_CompareValue"></span></td>
+            <td align="center" style="width:120px;"><span id="spnTitle_ConditionGroup"></span></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">
+                <button id="btn_cndtn_line_add" class="hxbtn image_only"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_line_add">
+                    <span class="fa fa-plus hxcolor_primary"></span></button>
+                <button id="btn_cndtn_line_remove" class="hxbtn image_only"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_line_remove">
+                    <span class="fa fa-close hxcolor_red" style="margin-left:4px;"></span></button>
+            </td>
+            <td align="center">
+                <button id="btn_cndtn_option_p_left" class="hxbtn small formula_operator_btn_container"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_option_p_left"><span style="padding:0px 2px;">(</span></button></td>
+            <td align="center" class="hxfld_container no_caption">
+                <span class="hxfld_input_area">
+                    <input type="text" id="hxinputbox__condition_rule_builder__field_name" 
+                           class="hxinputbox" hx_binding_datafld="field_name" />
+                    <span id="hximgbtn__condition_rule_builder__field_name" 
+                          class="hxfld_input_choose_btn fa fa-caret-down" style="visibility:visible;"></span>
+                </span>
+            </td>
+            <td align="center" class="hxfld_container no_caption">
+                <span class="hxfld_input_area">
+                    <input type="text" id="hxinputbox__condition_rule_builder__compare_method" 
+                           class="hxinputbox" hx_binding_datafld="compare_method_desc" />
+                    <span id="hximgbtn__condition_rule_builder__compare_method"
+                          class="hxfld_input_choose_btn fa fa-caret-down" style="visibility:visible;"></span>
+                </span>
+            </td>
+            <td align="center" class="hxfld_container no_caption">
+                <span class="hxfld_input_area">
+                    <input type="text" id="hxinputbox__condition_rule_builder__compare_value" 
+                           class="hxinputbox" hx_binding_datafld="compare_value" hx_auto_replace_crlf_as_char=";" />
+                    <span id="hximgbtn__condition_rule_builder__compare_value"
+                          class="hxfld_input_choose_btn fa fa-caret-down" style="visibility:hidden;"></span>
+                </span>
+            </td>
+            <td align="right">
+                <button id="btn_cndtn_option_p_right" class="hxbtn small formula_operator_btn_container"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_option_p_right"><span style="padding:0px 2px;">)</span></button>
+                <button id="btn_cndtn_option_and" class="hxbtn small formula_operator_btn_container selected" style="margin-left:8px;"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_option_and"><span>and</span></button>
+                <button id="btn_cndtn_option_or" class="hxbtn small formula_operator_btn_container" style="margin-left:8px;"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_option_or"><span>or</span></button>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td align="center">
+                <button id="btn_cndtn_line_add" class="hxbtn image_only"
+                        hxpage_click_handler="hxextendwebpart.hxmd_object_view_condition_builder.cndtn_line_add_at_foot"><span class="fa fa-plus hxcolor_primary"></span></button>
+                <button id="btn_cndtn_line_remove" class="hxbtn image_only"><span class="fa fa-close hxcolor_red" style="margin-left:4px;visibility:hidden;"></span></button>
+            </td>
+            <td colspan="5"></td>
+        </tr>
+    </tfoot>
+</table>

@@ -1,0 +1,36 @@
+﻿.menu_bar_container {position:fixed;_position:absolute;left:0px;top:0px;bottom:0px;width:160px;height:100%;z-index:1000;}
+
+/*内容区左右各留25px空白，通过left:185px（160px的菜单区域宽度+25px留白）;right:25px;实现，但IE5Quirks模式下不支持该方式，所以使用width:expression(...)计算内容区宽度（容器宽度 - 210(185+25)） */
+.page_content_container {position:absolute; left:185px;right:25px;width:expression(this.parentNode.offsetWidth-210);height:auto; }
+
+/*隐藏模式下，内容区左右各留白25px*/
+.page_content_container.hide_menu {left:25px;width:expression(this.parentNode.offsetWidth-50);}
+
+/*菜单栏内容样式*/
+.menu_bar_container .menu_bar_logo_area {height:54px;background-color:White;}
+.menu_bar_container .menu_bar_logo_area img {margin-left:50px;margin-top:10px;} /*原始logo尺寸：54*40*/
+.menu_bar_container .menu_bar_welcome_area {top:54px;height:90px;}
+.menu_bar_container .menu_bar_welcome_area .hxicon_invert_head_placeholder {left:60px;top:16px;}
+.menu_bar_container .menu_bar_welcome_area #lblWelcomeUserNameArea {left:20px;top:60px;width:120px;}
+.menu_bar_container .menu_bar_content_area {top:146px;}
+.menu_bar_container .menu_bar_bottom_area {height:40px;}
+.menu_bar_container .menu_bar_bottom_area .hxicon_invert_exit_system {position:absolute;left:16px;top:12px;cursor:pointer;}
+.menu_bar_container .menu_bar_bottom_area #lblExitSystemButtonText {position:absolute;left:38px;top:6px;}
+.menu_bar_container .menu_bar_bottom_area .hxicon_invert_system_setting {position:absolute;left:90px;top:12px;cursor:pointer;}
+.menu_bar_container .menu_bar_bottom_area #lblPersonalSettingButtonText {position:absolute;left:112px;top:6px;}
+.menu_bar_container .menu_bar_bottom_area .hxicon_invert_go_home {position:absolute;left:90px;top:12px;cursor:pointer;}
+.menu_bar_container .menu_bar_bottom_area #lblGoHomeButtonText {position:absolute;left:112px;top:6px;}
+
+.menu_bar_welcome_area .hxtxt_content, .menu_bar_bottom_area .hxtxt_content {color:White;}
+
+#WebPageMenuBarHideButton {z-index:2000;position:absolute;left:142px;top:5px;cursor:pointer;}
+#WebPageMenuBarShowButton {z-index:2000;position:absolute;left:2px;top:52px;display:none;cursor:pointer;}
+
+/*内容区域内的各个内容段默认样式*/
+.page_section_container { position:relative; margin-top:10px; background:white; width:100%; padding:30px 20px 16px 20px;}
+.page_section_title_decorated {position:absolute;left:20px;top:10px;width:3px;height:16px;}
+.page_section_title_area {position:absolute;left:30px;top:10px;}
+
+.page_section_content_area { position:relative;width:100%;border-top:solid 1px #D5D5D5;padding-top:4px;}
+.page_section_content_area td {padding:4px 0px 4px 0px; vertical-align:middle;}
+

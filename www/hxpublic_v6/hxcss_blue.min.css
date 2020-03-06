@@ -1,0 +1,147 @@
+/*primary 和info 前景色*/
+.hxcolor_primary {
+  color: #337ab7;
+}
+.hxcolor_primary_dark {
+  color: #004ca3;
+}
+.hxcolor_primary_darker {
+  color: #204d74;
+}
+.hxcolor_primary_darkest {
+  color: #122b40;
+}
+.hxcolor_info {
+  color: #32b1e6;
+}
+.hxcolor_info_dark {
+  color: #31b0d5;
+}
+.hxcolor_info_darker {
+  color: #269abc;
+}
+.hxcolor_info_darkest {
+  color: #1b6d85;
+}
+/*primary 和info 背景色*/
+.hxbgcolor_primary {
+  background-color: #337ab7;
+}
+.hxbgcolor_primary_dark {
+  background-color: #004ca3;
+}
+.hxbgcolor_primary_darker {
+  background-color: #204d74;
+}
+.hxbgcolor_primary_darkest {
+  background-color: #122b40;
+}
+.hxbgcolor_info {
+  background-color: #32b1e6;
+}
+.hxbgcolor_info_dark {
+  background-color: #31b0d5;
+}
+.hxbgcolor_info_darker {
+  background-color: #269abc;
+}
+.hxbgcolor_info_darkest {
+  background-color: #1b6d85;
+}
+/*info hover 背景色*/
+.hxbgcolor_info_hover:hover {
+  background-color: #337ab7;
+}
+/*标题文本修饰线条颜色*/
+.hxtxt_decorated_line:before {
+  border-left-color: #337ab7;
+}
+/*带颜色表格头的样式*/
+.hxblock_hilight_datalist_head .hxtbl_datalist thead td,
+.hxblock_hilight_datalist_head.hxtbl_datalist thead td,
+.hxblock_hilight_datalist_head .hxtbl_grid thead td,
+.hxblock_hilight_datalist_head.hxtbl_grid thead td {
+  background-color: #32b1e6;
+  color: white;
+}
+/*徽章在按钮下的颜色风格*/
+.hxbtn.primary .hxbadge {
+  color: #337ab7;
+}
+.hxbtn.info .hxbadge {
+  color: #32b1e6;
+}
+/*进度条颜色系列*/
+.hxprogress_bar.primary {
+  background-color: #337ab7;
+}
+.hxprogress_bar.info {
+  background-color: #32b1e6;
+}
+.hxbtn.primary .badge {
+  color: #337ab7;
+}
+.hxbtn.info .badge {
+  color: #32b1e6;
+}
+/* primary按钮颜色 */
+.hxbtn.primary,
+.hxbtn.primary[disabled]:hover,
+.hxbtn.primary[disabled]:focus {
+  background-color: #337ab7;
+  border-color: #004ca3;
+}
+.hxbtn.primary:focus,
+.hxbtn.primary:hover,
+.hxbtn.primary:active {
+  background-color: #004ca3;
+  border-color: #204d74;
+}
+.hxbtn.primary:active:hover,
+.hxbtn.primary:active:focus {
+  background-color: #204d74;
+  border-color: #122b40;
+}
+/* info按钮颜色 */
+.hxbtn.info,
+.hxbtn.info[disabled]:hover,
+.hxbtn.info[disabled]:focus {
+  background-color: #32b1e6;
+  border-color: #31b0d5;
+}
+.hxbtn.info:focus,
+.hxbtn.info:hover,
+.hxbtn.info:active {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.hxbtn.info:active:hover,
+.hxbtn.info:active:focus {
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+/*菜单和popupmenu控件专有颜色*/
+.hxwebpopupmenucontrol_menuitem_area {
+  background-color: #32b1e6;
+}
+.hxwebpopupmenucontrol_menuitem_area:hover {
+  background-color: #337ab7;
+}
+#hxmastermenuitem_container:hover {
+  background-color: #337ab7;
+}
+#hxmastermenuitem_container:hover {
+  background-color: #32b1e6;
+}
+#hxmastermenu_popupchildmenu_level_1 .hxwebpopupmenucontrol_menuitem_area {
+  background-color: #32b1e6;
+}
+#hxmastermenu_popupchildmenu_level_1 .hxwebpopupmenucontrol_menuitem_area:hover {
+  background-color: #337ab7;
+}
+#hxmastermenu_popupchildmenu_level_2 .hxwebpopupmenucontrol_menuitem_area {
+  background-color: #337ab7;
+}
+#hxmastermenu_popupchildmenu_level_2 .hxwebpopupmenucontrol_menuitem_area:hover {
+  background-color: #32b1e6;
+}

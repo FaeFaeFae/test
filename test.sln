@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.hxpage", "www\test.hxpage.csproj", "{7C1A1240-7FEF-4537-B340-81C998A25507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.bll", "code\test.bll\test.bll.csproj", "{A036B20D-8908-40C1-A4B9-057683321C8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C1A1240-7FEF-4537-B340-81C998A25507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1A1240-7FEF-4537-B340-81C998A25507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1A1240-7FEF-4537-B340-81C998A25507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1A1240-7FEF-4537-B340-81C998A25507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A036B20D-8908-40C1-A4B9-057683321C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A036B20D-8908-40C1-A4B9-057683321C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A036B20D-8908-40C1-A4B9-057683321C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A036B20D-8908-40C1-A4B9-057683321C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
